@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h2 {
+  color: darkblue;
+  text-align: center;
+}
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+input {
+  margin: 5px;
+  padding: 8px;
+}
+button {
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: center;
+}
+.action-btn {
+  padding: 5px 8px;
+  margin: 2px;
+  cursor: pointer;
+}
+.edit { background: orange; color: white; }
+.delete { background: red; color: white; }
+
+
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Highlight row being edited */
+#studentTable tr.editing {
+  background-color: #fff3cd !important;
+}
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+
+/* Table hover effect */
+table tbody tr:hover {
+  background-color: #e2f0ff;  /* light blue on hover */
+}
+
+/* Highlight form fields on focus */
+input:focus {
+  border-color: #0d6efd;  /* Bootstrap primary blue */
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+/* Success / info / warning alerts */
+.alert {
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  font-family: 'Segoe UI', sans-serif;
+}
+table thead {
+  background-color: #0d6efd;
+  color: white;
+}
+button.btn-success { background-color: #28a745; }
+button.btn-warning { background-color: #ffc107; }
+button.btn-danger { background-color: #dc3545; }
+
+table tbody tr:hover {
+  background-color: #e2f0ff;
+}
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
